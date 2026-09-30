@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evidence Checklist | NIST SP 800-171</title>
+<meta name="description" content="Free evidence checklist for NIST SP 800-171. Know exactly what proof an assessor will ask for, track what you have, and find the gaps.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">AI Tech Pros <span>MAPS Tools</span></div>
+    <h1>Evidence Checklist</h1>
+    <p class="sub">An assessor does not take your word for it. For every requirement, here is the proof they will ask for. Track what you have, find what is missing, and walk in ready.</p>
+    <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+    <p class="muted small" id="progressText">0 evidence items collected</p>
+    <div id="unproven" class="warn bad hidden"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <div class="row">
+      <button id="importCalc" class="btn">Import statuses from SPRS Calculator</button>
+      <span class="muted small" id="importNote">Flags requirements you marked Implemented but have no evidence for yet.</span>
+    </div>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search requirements or evidence…">
+      <select id="familyFilter"><option value="">All families</option></select>
+      <select id="statusFilter">
+        <option value="">All statuses</option>
+        <option value="missing">Missing</option>
+        <option value="progress">In progress</option>
+        <option value="collected">Collected</option>
+      </select>
+      <label class="check"><input type="checkbox" id="onlyGaps"> Show only gaps</label>
+    </div>
+    <div id="families"></div>
+  </section>
+
+  <section class="card">
+    <h2>Export</h2>
+    <div class="row">
+      <button id="exportCsv" class="btn primary">Download CSV</button>
+      <button id="exportMd" class="btn">Download checklist (Markdown)</button>
+      <button id="printBtn" class="btn ghost">Print</button>
+      <button id="resetAll" class="btn ghost danger">Clear all</button>
+    </div>
+    <p class="muted small">Evidence suggestions are a starting point. Confirm with your assessor what proof they expect for your environment.</p>
+  </section>
+
+  <footer class="foot">
+    <p>Free tool from <strong>Neo Harvard</strong>, CEO of <a href="https://aitechpros.ai">AI Tech Pros</a>. Part of the <a href="https://github.com/nehemiah313/maps-framework">MAPS framework</a> family. Estimates only, not legal advice. Requirement text: NIST SP 800-171 Rev. 2 (public domain).</p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
