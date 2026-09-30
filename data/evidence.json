@@ -1,0 +1,301 @@
+{
+  "families": {
+    "3.1": [
+      "Access control policy",
+      "User access review / recertification records",
+      "Account provisioning and deprovisioning procedure with sample tickets"
+    ],
+    "3.2": [
+      "Security awareness training completion records",
+      "Training content / curriculum",
+      "Role-based training plan and records"
+    ],
+    "3.3": [
+      "Audit logging policy",
+      "SIEM or log aggregation tool configuration",
+      "Sample audit logs retained per policy",
+      "Log review records and schedule"
+    ],
+    "3.4": [
+      "Baseline configuration documentation",
+      "Change control records with approvals (samples)",
+      "System and software inventory"
+    ],
+    "3.5": [
+      "Identification and authentication policy",
+      "User and service account inventory",
+      "Authenticator management procedure"
+    ],
+    "3.6": [
+      "Incident response plan",
+      "Incident tickets / register",
+      "Incident reporting procedure (internal and external)"
+    ],
+    "3.7": [
+      "System maintenance policy and procedures",
+      "Maintenance logs",
+      "Maintenance personnel authorization records"
+    ],
+    "3.8": [
+      "Media protection policy",
+      "Media inventory and tracking records",
+      "Sanitization and destruction records"
+    ],
+    "3.9": [
+      "Personnel security policy",
+      "Background / screening records",
+      "Termination and transfer checklist with sample records"
+    ],
+    "3.10": [
+      "Physical access authorization list",
+      "Visitor logs",
+      "Badge / key issuance records"
+    ],
+    "3.11": [
+      "Risk assessment report",
+      "Vulnerability scan reports",
+      "Remediation tracking for findings"
+    ],
+    "3.12": [
+      "System Security Plan",
+      "Security assessment reports",
+      "POA&M with status updates"
+    ],
+    "3.13": [
+      "Network diagram",
+      "Boundary protection device configurations",
+      "Encryption configuration documentation"
+    ],
+    "3.14": [
+      "Patch compliance reports",
+      "Malicious code protection deployment report and policy",
+      "Flaw remediation tickets with timelines"
+    ]
+  },
+  "controls": {
+    "3.1.1": [
+      "Access control policy",
+      "Authorized user, process, and device inventory",
+      "Access provisioning records (sample tickets)"
+    ],
+    "3.1.2": [
+      "Role-to-function access matrix",
+      "Application permission configuration (screenshots or exports)",
+      "User access review records"
+    ],
+    "3.1.12": [
+      "Remote access session logs",
+      "Remote access monitoring procedure",
+      "VPN / remote gateway configuration"
+    ],
+    "3.1.13": [
+      "VPN encryption configuration (protocol and cipher suite)",
+      "TLS certificate details for remote access",
+      "Remote access architecture description"
+    ],
+    "3.1.16": [
+      "Wireless authorization records",
+      "Wireless access policy",
+      "WLAN controller list of authorized access points"
+    ],
+    "3.1.17": [
+      "Wireless encryption settings (WPA2/WPA3-Enterprise)",
+      "RADIUS or certificate-based authentication configuration",
+      "Wireless scan showing no rogue access points"
+    ],
+    "3.1.18": [
+      "MDM enrollment report",
+      "Mobile device policy",
+      "List of authorized mobile devices"
+    ],
+    "3.2.1": [
+      "Security awareness training completion records",
+      "Training content / curriculum",
+      "New-hire onboarding training records"
+    ],
+    "3.2.2": [
+      "Role-based training plan",
+      "Training records by role (administrators, developers)",
+      "Training content for privileged roles"
+    ],
+    "3.3.1": [
+      "Audit logging policy",
+      "Sample audit logs retained per policy",
+      "Inventory of log sources (what is logged, where)"
+    ],
+    "3.3.5": [
+      "SIEM correlation rules / use cases",
+      "Incident tickets generated from correlation",
+      "Audit review schedule and records"
+    ],
+    "3.4.1": [
+      "System inventory (hardware, software, firmware)",
+      "Baseline configuration documents",
+      "Inventory review records"
+    ],
+    "3.4.2": [
+      "Hardening guides applied (e.g., STIG checklists)",
+      "Group Policy or MDM configuration exports",
+      "Deviation / waiver records with approvals"
+    ],
+    "3.4.5": [
+      "Change control policy",
+      "Change tickets with approvals (samples)",
+      "List of personnel authorized to approve changes"
+    ],
+    "3.4.6": [
+      "System build / hardening standard",
+      "Installed software inventory vs. approved list",
+      "Running services and ports inventory"
+    ],
+    "3.4.7": [
+      "Disabled services / GPO report",
+      "Firewall port inventory",
+      "Application allowlist"
+    ],
+    "3.4.8": [
+      "Application control policy (e.g., AppLocker / WDAC configuration)",
+      "Blocked execution logs",
+      "Approved software list"
+    ],
+    "3.5.1": [
+      "User account inventory",
+      "Service account inventory",
+      "Managed device inventory"
+    ],
+    "3.5.2": [
+      "Authentication policy",
+      "Identity provider configuration (SSO / MFA enforcement)",
+      "Evidence of login control testing"
+    ],
+    "3.5.3": [
+      "MFA enrollment report (privileged accounts and network access)",
+      "Conditional access / MFA enforcement policy export",
+      "Inventory of MFA methods in use"
+    ],
+    "3.5.10": [
+      "Password storage configuration (hashing algorithm, e.g., bcrypt / Argon2)",
+      "Evidence passwords are only transmitted over encrypted channels",
+      "Password policy settings"
+    ],
+    "3.6.1": [
+      "Incident response plan",
+      "Incident response team roster and roles",
+      "Incident response tooling inventory"
+    ],
+    "3.6.2": [
+      "Incident tickets / register",
+      "Incident reporting procedure (internal and 72-hour external reporting)",
+      "Sample incident reports"
+    ],
+    "3.7.2": [
+      "Maintenance policy / procedures",
+      "Maintenance logs",
+      "Maintenance personnel authorization records"
+    ],
+    "3.7.5": [
+      "Evidence of MFA enforcement for vendor remote maintenance access",
+      "Maintenance session logs showing MFA",
+      "Vendor remote access agreements"
+    ],
+    "3.8.3": [
+      "Media sanitization / destruction certificates",
+      "Sanitization procedure (per NIST SP 800-88)",
+      "Media disposal log"
+    ],
+    "3.8.7": [
+      "Removable media policy",
+      "USB / removable media blocking configuration (endpoint policy)",
+      "Register of authorized removable media"
+    ],
+    "3.9.2": [
+      "Termination / transfer checklist",
+      "Sample deprovisioning tickets",
+      "Account disable timing records"
+    ],
+    "3.10.1": [
+      "Physical access authorization list",
+      "Badge / key issuance records",
+      "Server room / restricted area access logs"
+    ],
+    "3.10.2": [
+      "Visitor logs",
+      "Monitoring coverage description (cameras, alarms)",
+      "Environmental control records"
+    ],
+    "3.11.2": [
+      "Recent vulnerability scan reports",
+      "Scan schedule / policy",
+      "Remediation tracking for scan findings"
+    ],
+    "3.12.1": [
+      "Security assessment reports",
+      "Assessment schedule",
+      "System Security Plan"
+    ],
+    "3.12.3": [
+      "Continuous monitoring strategy",
+      "Ongoing control review records",
+      "POA&M status updates"
+    ],
+    "3.13.1": [
+      "Network diagram",
+      "Boundary device configurations",
+      "CUI data flow description"
+    ],
+    "3.13.2": [
+      "System architecture documentation",
+      "Secure design principles applied",
+      "Architecture review records"
+    ],
+    "3.13.5": [
+      "Network diagram showing DMZ / separated subnetworks",
+      "Firewall rules governing the DMZ",
+      "Inventory of publicly accessible components"
+    ],
+    "3.13.6": [
+      "Firewall rulebase export showing default-deny",
+      "Firewall rule review records",
+      "Network ACL documentation"
+    ],
+    "3.13.11": [
+      "FIPS 140 validation certificates for cryptographic modules in use",
+      "Inventory of cryptographic modules protecting CUI",
+      "Configuration evidence showing FIPS mode enabled"
+    ],
+    "3.13.15": [
+      "Session protection configuration (TLS, HSTS, secure cookies)",
+      "Certificate inventory",
+      "DNSSEC or equivalent session protections where applicable"
+    ],
+    "3.14.1": [
+      "Patch compliance reports",
+      "Vulnerability remediation tickets with SLA tracking",
+      "Patching policy with defined timelines"
+    ],
+    "3.14.2": [
+      "EDR / antimalware deployment report",
+      "Malicious code protection policy configuration",
+      "Endpoint coverage inventory"
+    ],
+    "3.14.3": [
+      "Security advisory intake process",
+      "Advisory review log",
+      "Sample actions taken on advisories"
+    ],
+    "3.14.4": [
+      "AV / EDR signature update status report",
+      "Automatic update configuration",
+      "Update failure alerting evidence"
+    ],
+    "3.14.6": [
+      "Monitoring coverage description (SOC or equivalent)",
+      "Sample IDS / IPS / NDR alerts handled",
+      "Inbound and outbound traffic monitoring configuration"
+    ]
+  },
+  "meta": {
+    "source": "AI Tech Pros evidence suggestions for NIST SP 800-171 Rev. 2",
+    "note": "Suggestions only. Confirm with your assessor what evidence they expect."
+  }
+}
