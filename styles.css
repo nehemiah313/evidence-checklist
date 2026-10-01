@@ -120,3 +120,6 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple
 .seg button.on-progress { background: #fef3c7; color: #92400e; font-weight: 700; }
 .seg button.on-collected { background: #dcfce7; color: #166534; font-weight: 700; }
 .fam-prog { font-size: 13px; color: var(--muted); font-weight: 600; }
+
+.legal-line{margin-top:1rem;font-size:.85rem;color:#6b7280}
+.storage-note{font-size:.8rem;color:#9ca3af;margin-top:.4rem}
